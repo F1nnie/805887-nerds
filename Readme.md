@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [F1nnie](https://up.htmlacademy.ru/htmlcss/21/user/754345).
-* Наставник: [Test ](https://up.htmlacademy.ru/htmlcss/21/user/752345).
+* Наставник: [Test ](https://up.htmlacademy.ru/htmlcss/21/user/457812).
 
 ---
 
