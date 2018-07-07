@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Екатерина Шахназарова](https://up.htmlacademy.ru/htmlcss/21/user/805887).
-* Наставник: `Неизвестно`.
+* Студент: [F1nnie](https://up.htmlacademy.ru/htmlcss/21/user/754345).
+* Наставник: [Test ](https://up.htmlacademy.ru/htmlcss/21/user/752345).
 
 ---
 
