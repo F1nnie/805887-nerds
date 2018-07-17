@@ -9,11 +9,11 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <img class="main-navigation-logo" src="#" height="" width="" alt="nerds-logo">
+      <img class="main-navigation-logo" src="img/nerds-logo.svg" height="65" width="160" alt="Логотип Барбершопа Бородинский">
       <ul class="site-navigation">
         <li><a href="#">Студия</a></li>
         <li><a href="#">Клиенты</a></li>
-        <li><a href="#">Магазин</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
@@ -30,7 +30,7 @@
           <span class="slide-tagline">Долго,Дорого,Скурпулезно. <span>
               <span class="slide-info"> Математически выверенный дизайн для вашего сайта или мобильного приложения. </span>
           <a class="button slide-button" href="#">Узнать больше </a>
-          <img src="#" alt="slide-1-img">
+          <img src="img/slide-1.jpg" width="698" height="413" alt="slide-1-img">
         </li>
         <li class="slide-2">
           <span class="slide-tagline">Любим математику как никто другой <span>
@@ -38,7 +38,7 @@
                 Никакого креатива, только математические формулы
 для расета идеальных пропорций. </span>
           <a class="button slide-button" href="#">Узнать больше </a>
-          <img src="#" alt="slide-2-img">
+          <img src="img/slide-2.jpg" width="663" height="430" alt="slide-2-img">
         </li>
         <li class="slide-3">
           <span class="slide-tagline">Только ночь,только хардкор <span>
@@ -46,7 +46,7 @@
                 Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается
                </span>
           <a class="button slide-button" href="#">Узнать больше </a>
-          <img src="#" alt="slide-3-img">
+          <img src="img/slide-3.jpg" width="759" height="411" alt="slide-3-img">
         </li>
       </ul>
     </section>
@@ -55,6 +55,7 @@
       <ul class="services-list">
         <li class="services-item">
           <h3 class="services-item-title">Веб-сайты</h3>
+          <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайт">
           <p class="services-item-info">
             Мир никогда не будет прежним после того как увидит ваш сайт!
           </p>
@@ -62,6 +63,7 @@
         </li>
         <li class="services-item">
           <h3 class="services-item-title">Приложения</h3>
+          <img src="img/illustration-2.jpg" width="300" height="146" alt="Приложение">
           <p class="services-item-info">
             Покорите топ-10 приложений в AppStore и Google Play
           </p>
@@ -69,6 +71,7 @@
         </li>
         <li class="services-item">
           <h3 class="services-item-title">Презентации</h3>
+          <img src="img/illustration-3.jpg" width="300" height="146" alt="Призентация">
           <p class="services-item-info">
             Вы даже не подозреваете,  насколько вы изумительны!
           </p>
@@ -96,7 +99,7 @@
         </ul>
       </div>
       <div class="about-us-history">
-        <img src="abaout-us-history-logo" alt="nerds-logo">
+        <img src="img/nerds-illustration.jpg" widht="360" height="208" alt="Логотип НЕрдс">
         <ul class="about-us-history-list">
           <li class="about-us-history-item">
             <p> 146 <span class="about-us-history-item-persent">%</span> </p>
@@ -115,10 +118,19 @@
     <section class="partners">
       <h2 class="visially-hidden">Партнеры</h2>
       <ul class="partners-list">
-        <li class="partners-logo"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="logo-1"></a> </li>
-        <li class="partners-logo"><img src="#" alt="logo-2"> </li>
-        <li class="partners-logo"><img src="#" alt="logo-3"> </li>
-        <li class="partners-logo"><img src="#" alt="logo-4"> </li>
+        <li class="partners-logo">
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-1.png" alt="html-academy">
+          </a>
+         </li>
+        <li class="partners-logo">
+          <img src="img/logo-2.png" alt="Barbershop borodinsky"> </li>
+        <li class="partners-logo">
+          <img src="img/logo-3.png" alt="Pink">
+        </li>
+        <li class="partners-logo">
+          <img src="img/logo-4.png" alt="Mishka">
+        </li>
       </ul>
     </section>
 <footer class="main-footer">
@@ -129,7 +141,7 @@
         <br> тел. +7 (812) 666-02-66
       </p>
       <a href="#" class="button contacts-button">Напишите нам</a>
-      <img src="#" alt="map">
+      <img src="img/map.jpg" width="1440" height="416" alt="Карта">
     </section>
     <section class="footer-social">
       <ul>
@@ -150,8 +162,25 @@
     <section class="modal modal-feedback">
         <h2 class="visually-hidden">Обратная связь</h2>
         <p>Напишите нам</p>
-        <!-- Здесь будет форма -->
-        <span class="modal-close">x</span>
+        <form class="feedback-form" action="index.html" method="post">
+          <p>
+            <label for="user-name">Ваше Имя:</label>
+            <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label for="user-password">Ваш e-mail</label>
+            <input type="password" id="user-password" name="user-password" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="user-letter">Текст письма:</label>
+            <textarea name="user-letter" id="user-letter" rows="6" cols="60" placeholder="В свободной форме"></textarea>
+          </p>
+          <button class="Button" type="submit"> Отправить</button>
+
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+
+
     </section>
 
 </body>
