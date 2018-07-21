@@ -5,12 +5,174 @@ body{
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #283136;
+  color: #000000;
 
   background-color: #ffffff;
 }
 
 a{
   text-decoration: none;
+
+}
+
+.main-header{
+
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.main-header a{
+  font: inherit;
+  font-weight: 500;
+  line-height: 30px;
+
+  text-transform: uppercase;
+}
+
+.main-header a:hover,
+.main-header a:focus{
+  color: #fb565a;
+}
+
+.main-header a:active{
+
+  color: rgba(0, 0, 0, 0.302);
+}
+
+.site-navigation ,
+.basket,
+.main-slider ul,
+.services-list,
+.about-us-details-list,
+.about-us-history-list {
+  list-style: none;
+}
+
+
+.slide-tagline {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+
+  text-align: left;
+  text-transform: uppercase;
+
+}
+
+.button{
+  width: 240px;
+  height: 50px;
+
+  line-height: 18px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+
+
+  background-color: #fb565a;
+}
+
+.button:hover,
+.button:focus{
+  background-color: #e74246;
+}
+
+.button:active{
+
+  color: rgba(255, 255, 255, 0.302);
+
+  background-color: #d7373b;
+  box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.1);
+
+
+}
+.services-item-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  text-align: left;
+
+}
+
+.services-item-info{
+  text-align: left;
+}
+
+.about-us-details-tegline{
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+}
+
+p.upp-bold{
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+}
+.about-us-history-item p:first-child{
+  font-size: 45px;
+}
+.about-us-history-item p:last-child{
+  line-height: 18px;
+}
+
+.persent{
+
+  line-height: 10.5px;
+  vertical-align: top;
+
+}
+
+.main-footer{
+  font-size: 16px;
+  line-height: 18px;
+
+  background-color: #ffffff;
+}
+
+.contacts{
+  text-align: center;
+}
+
+.contacts b{
+  line-height: 30px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.footer-social b{
+  font-size: 36;
+  line-height: 36px;
+
+}
+
+.footer-social p{
+  line-height: 22px;
+}
+
+.modal-feedback{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.feedback-header{
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+
+}
+
+p label:first-child{
+  font-weight: 700;
 
 }
